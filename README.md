@@ -7,7 +7,7 @@ Statut
   In development. But soon finished.
   
 Installation
-  Download all repository at [github](https://github.com/MaximeHocquet/Pokemon/edit/master/)
+  Download all repository at [github](https://github.com/MaximeHocquet/Pokemon/tree/master)
   
 Use
   Open "index.html" file. 
