@@ -1,0 +1,132 @@
+/*-----------------Body----------------*/
+body{
+    background-image: url("../img/fond-page.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+/*-------------Pokemon Card------------*/
+
+.pokemon-card{
+    border-radius: 10px;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+    height: 400px;
+    width: 300Px;
+    margin-left: 22%;
+    background-color: white;
+    border: 4px solid yellow;
+}
+.card-top{
+    margin: 2% 10%;
+    padding-top: 2%;
+    height: 30px;
+    font-weight: bold;
+}
+.card-top i{
+    float: right;
+}
+.name{
+    width: max-content;
+    float: left;
+}
+.level{
+    width: max-content;
+    float: right;
+    margin: 5px 20px;
+}
+.add-deck{
+    border: none;
+    width: 80%;
+    height: 30%;
+    margin: 2% 10%;
+    background-image: url("../img/fond-carte.jpg");
+    background-size: cover;
+}
+.abilities{
+    margin: 2% 10%;
+    font-size: small;
+}
+.abilities i{
+    float: left;
+}
+.ability-name{
+    float: left;
+    font-weight: bold;
+    margin-left: 20%;
+}
+.ability-power{
+    float: right;
+    font-weight: bold;
+}
+.ability-description{
+    float: left;
+    font-size: 4px;
+}
+
+
+/*----------------Deck----------------*/
+
+#deck-card1, #deck-card2, #deck-card3, #deck-card4, #deck-card5, #deck-card6{
+    width: 200px;
+    height: 300px;
+    margin: 10%;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+    font-size: 9px;
+    background-color: white;
+    border: 4px solid yellow;
+}
+#deck-card1 .ability-description{
+    font-size: 2px;
+}
+#deck-card2 .ability-description{
+    font-size: 2px;
+}
+#deck-card3 .ability-description{
+    font-size: 2px;
+}
+#deck-card4 .ability-description{
+    font-size: 2px;
+}
+#deck-card5 .ability-description{
+    font-size: 2px;
+}
+#deck-card6 .ability-description{
+    font-size: 2px;
+}
+
+
+/*---------------Logo---------------*/
+#logo{
+    margin: 15%;
+}
+
+
+/*---------------Buttons---------------*/
+
+.start{
+    margin: 7% 26%;
+    padding: 10px 80px;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background-color: #F5CE3B;
+    font-size: large;
+    font-weight: 500;
+}
+.stop{
+    padding: 10px 68px;
+    margin-left: 26%;
+    width: 250px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 6px 20px 0 rgb(0 0 0 / 19%);
+    color: white;
+    background-color: #E84643;
+    font-size: large;
+    font-weight: 500;
+    
+}
